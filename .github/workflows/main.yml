@@ -10,7 +10,7 @@ on:
 
 env:
   DOCKER_USERNAME: hulkstern
-  DOCKER_CONTAINER_NAME: caddy-cloudflaredns
+  DOCKER_CONTAINER_NAME: caddy-cloudflaredns-ip
   DOCKER_TARGET_PLATFORM: linux/amd64, linux/arm64, linux/arm/v8, linux/arm/v7
 
 jobs:
