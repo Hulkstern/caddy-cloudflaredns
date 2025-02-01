@@ -2,15 +2,17 @@
 [![caddy on DockerHub][dockerhub-image]][dockerhub-url]
 [![Docker Build][gh-actions-image]][gh-actions-url]
 
-# caddy-cloudflaredns
+# caddy-cloudflaredns-ip
+
+This repository is a fork of [SlothCroissant/caddy-cloudflaredns](https://github.com/SlothCroissant/caddy-cloudflaredns/) that adds the community created ip source plugin for Cloudflare IP addresses in addition to the official Cloudflare DNS plugin already added by SlothCroissant.
 
 Please see the official [Caddy Docker Image](https://hub.docker.com/_/caddy) for deployment instructions.
 
 Builds are available at the following Docker repositories:
 
-* Docker Hub: [docker.io/slothcroissant/caddy-cloudflaredns](https://hub.docker.com/r/slothcroissant/caddy-cloudflaredns)
-* GitHub Container Registry: [ghcr.io/slothcroissant/caddy-cloudflaredns](https://ghcr.io/slothcroissant/caddy-cloudflaredns)
-* Quay Container Registry: [quay.io/slothcroissant/caddy-cloudflaredns](https://quay.io/repository/slothcroissant/caddy-cloudflaredns)
+* Docker Hub: [docker.io/hulkstern/caddy-cloudflaredns-ip](https://hub.docker.com/r/hulkstern/caddy-cloudflaredns-ip)
+* GitHub Container Registry: [ghcr.io/hulkstern/caddy-cloudflaredns-ip](https://ghcr.io/hulkstern/caddy-cloudflaredns-ip)
+* Quay Container Registry: [quay.io/hulkstern/caddy-cloudflaredns-ip](https://quay.io/repository/hulkstern/caddy-cloudflaredns-ip)
 
 Few things to note: 
 
